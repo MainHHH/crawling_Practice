@@ -4,3 +4,4 @@ numpy
 BeautifulSoup
 datetime
 requests
+bs4
