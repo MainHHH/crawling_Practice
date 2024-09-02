@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import streamlit as st
 import pandas as pd
-import datetime as dt
 
 def get_blog_item(url) :
     tmp = url.split("/")
