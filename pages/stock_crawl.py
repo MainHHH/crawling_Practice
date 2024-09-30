@@ -13,7 +13,7 @@ def get_stock(code, startdate, enddate):
 
     return df
 
-st.title('주식 차트')
+st.title('주식 차트 데이터')
 
 startdate = st.sidebar.date_input('조회 시작 일자', dt.datetime(2024,1,1))
 enddate = st.sidebar.date_input('조회 종료 일자', dt.datetime(2024,1,1))

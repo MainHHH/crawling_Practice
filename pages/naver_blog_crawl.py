@@ -48,7 +48,7 @@ def get_naver_blog(keyword, startdate, enddate) :
     df = pd.DataFrame(ret, columns=['title', 'nick', 'date', 'content', 'url'])
     return df
     
-st.title("네이버 블로그")
+st.title("네이버 블로그 데이터")
 
 with st.sidebar:
     startdate = st.date_input('조회 시작 일자')
